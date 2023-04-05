@@ -23,7 +23,7 @@ public class MagacinImpl implements Magacin{
 	}
 
 	@Override
-	public Artikal pronadjiArtikal(Artikal a) {
+	public Artikal pronadjiArtikal(int sifra) {
 		
 		return null;
 		
