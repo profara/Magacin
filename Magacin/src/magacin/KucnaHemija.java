@@ -11,8 +11,8 @@ public class KucnaHemija extends Artikal{
 	}
 	
 	public void setRokTrajanja(Date rokTrajanja) {
-		
-		this.rokTrajanja = rokTrajanja;
+		if(rokTrajanja != null)
+			this.rokTrajanja = rokTrajanja;
 	}
 	
 	@Override
