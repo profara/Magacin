@@ -6,7 +6,7 @@ public interface Magacin {
 	
 	public void dodajArtikal();
 	public void izbaciArtikal();
-	public Artikal pronadjiArtikal();
+	public Artikal pronadjiArtikal(Artikal a);
 	
 
 }
