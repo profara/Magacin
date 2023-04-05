@@ -5,9 +5,17 @@ import magacin.Artikal;
 
 public class MagacinImpl implements Magacin{
 
+	private Artikal a;
+	
+	public MagacinImpl() {
+		a = new Artikal();
+	}
+	
 	@Override
 	public void dodajArtikal() {
-		// TODO Auto-generated method stub
+		int stanje = a.getKolicina(); 
+		int novoStanje = stanje + 1;
+		a.setKolicina(novoStanje);
 		
 	}
 
