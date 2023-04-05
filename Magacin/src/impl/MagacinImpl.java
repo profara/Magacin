@@ -31,10 +31,10 @@ public class MagacinImpl implements Magacin{
 	}
 
 	@Override
-	public Artikal pronadjiArtikal(Artikal a) {
+	public Artikal pronadjiArtikal(int sifra) {
 		
 		for(Artikal artikal: artikli) {
-			if(artikal.equals(a))
+			if(artikal.getSifra() == sifra)
 				return artikal;
 		}
 		
